@@ -3,10 +3,17 @@
 --secondary-color: #187B95;
 --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
-.nav-item {
-    color:#187B95;
+.navbar {
+    --bs-navbar-color: var(--secondary-color);
+    --bs-navbar-hover-color: var(--secondary-color);
+    --bs-navbar-disabled-color: var(--secondary-color);
+    --bs-navbar-active-color: var(--secondary-color);
+    --bs-navbar-brand-color: var(--secondary-color);
+    --bs-navbar-brand-hover-color: var(--secondary-color);
+    --bs-navbar-toggler-border-color: var(--secondary-color);
 }
+
+
 body {
     margin-bottom: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
