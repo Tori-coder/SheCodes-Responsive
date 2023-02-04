@@ -106,29 +106,8 @@ h3 {
 }
 
 .my-img {
-    max-width: 85%;
+    max-width: 75%;
 }
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.mortar {
-    display: grid;
-    grid-template-rows: 1;
-    grid-template-columns: 1;
-}
-.weather {
-    display: grid;
-    grid-template-rows: 1;
-    grid-template-columns: 2;
-}
-.salsa {
-    display: grid;
-    grid-template-rows: 1-2;
-    grid-template-columns: 1;
-}
-.contact {
-    display: grid;
-    grid-template-rows: 2;
-    grid-template-columns: 1-2;
+.my-small-img {
+    max-width: 45%
 }
