@@ -13,7 +13,9 @@
     --bs-navbar-toggler-border-color: var(--secondary-color);
 }
 
-
+a:hover {
+    text-decoration: underline;
+}
 body {
     margin-bottom: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,7 +24,7 @@ body {
 
 h2 {
     color: var(--primary-color);
-    font-size: 42px;
+    font-size: 38px;
     padding: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -54,7 +56,7 @@ h3 {
 }
 .contact-link {
     border-radius: 4px;
-    padding: 20px 15px;
+    padding: 15px 15px;
     margin: 10px;
     text-decoration: none;
     text-transform: capitalize;
@@ -69,7 +71,7 @@ h3 {
 
 .about-link {
     border-radius: 4px;
-    padding: 20px 15px;
+    padding: 15px 15px;
     margin: 10px;
     text-decoration: none;
     text-transform: capitalize;
@@ -77,3 +79,10 @@ h3 {
     border: 1px solid var(--secondary-color);
 }
 
+.primary-link {
+    color: var(--secondary-color);
+}
+
+.img {
+    max-width:200px;
+}
