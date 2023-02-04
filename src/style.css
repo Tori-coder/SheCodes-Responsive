@@ -1,11 +1,14 @@
 :root {
 --primary-color: black;
---link-color: blue;
---link-style: underline;
+--secondary-color: #187B95;
+--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.nav-item {
+    color:#187B95;
+}
 body {
-    margin: 30px;
+    margin-bottom: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -13,18 +16,57 @@ body {
 h2 {
     color: var(--primary-color);
     font-size: 42px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
 h1 {
     color: var(--primary-color);
-    font-size: 72px;
+    font-size: 70px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 h3 {
     color: var(--primary-color);
     font-size: 26px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .homepage-link {
-    
     text-align: center;
     display: block;
 }
+
+.navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.contact-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+.contact-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.about-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
